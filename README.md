@@ -1,4 +1,4 @@
-# STL_BOUNDARY_City <img src="https://slu-dss.github.io/img/openGIS.png" align="right" />
+# STL_BOUNDARY_City <img src="https://slu-dss.github.io/img/gisLogo.png" align="right" />
 ## City of St. Louis Boundary
 
 ![](https://img.shields.io/badge/extent-City%20of%20St.%20Louis-red.svg)
