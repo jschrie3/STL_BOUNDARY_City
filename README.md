@@ -1,9 +1,11 @@
 # STL_BOUNDARY_City
 ## City of St. Louis Boundary
 
+![](https://img.shields.io/badge/extent-City%20of%20St.%20Louis-red.svg)
+![](https://img.shields.io/badge/category-census%20geography-orange.svg)
 [![](https://img.shields.io/github/release/slu-openGIS/STL_BOUNDARY_City.svg?label=version)](https://github.com/slu-openGIS/STL_BOUNDARY_City/releases)
 [![](https://img.shields.io/github/last-commit/slu-openGIS/STL_BOUNDARY_City.svg)](https://github.com/slu-openGIS/STL_BOUNDARY_City/commits/master)
-[![](https://img.shields.io/github/repo-size/slu-openGIS/STL_BOUNDARY_City.svg)](https://github.com/slu-openGIS/STL_BOUNDARY_City)
+![](https://img.shields.io/github/repo-size/slu-openGIS/STL_BOUNDARY_City.svg)
 
 ### Abstract
 The City of St. Louis's boundary. These data can be previewed interactively using the [`.geoJSON` file in this repository](https://github.com/slu-openGIS/STL_BOUNDARY_City/blob/master/geoJSON/STL_BOUNDARY_City.geoJSON).
@@ -12,7 +14,7 @@ The City of St. Louis's boundary. These data can be previewed interactively usin
 The [`gateway` package](https://github.com/slu-openGIS/gateway) can be used to download and import these data as a simple feature object:
 
 ```r
-city <- gateway::gw_download("STL_BOUNDARY_City")
+city <- gateway::gw_get_repo("STL_BOUNDARY_City")
 ```
 
 ## About the SLU DSS
